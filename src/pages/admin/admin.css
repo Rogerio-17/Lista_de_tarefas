@@ -8,6 +8,11 @@
 .admin-container h1 {
   margin-bottom: 22px;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .admin-container textarea {
   width: 450px;
@@ -20,10 +25,10 @@
   resize: none;
 }
 
-.admin-container button {
+.admin-container .btn-register {
   width: 450px;
   background: rgb(0, 82, 235);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: #fff;
   height: 30px;
   border-radius: 6px;
@@ -32,6 +37,66 @@
   transition: 0.3s;
 }
 
-.admin-container button:hover {
+.admin-container .btn-register:hover {
   background: rgb(33, 102, 231);
+}
+
+.list {
+  width: 90%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(27, 40, 56);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  justify-content: center;
+  padding: 6px;
+}
+
+.list button {
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 0px;
+  padding: 5px 7px;
+}
+
+.btn-delete {
+  background: rgb(16, 184, 16);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-delete:hover {
+  background: rgba(16, 184, 16, 0.781);
+}
+
+.btn-edita {
+  background: rgb(15, 158, 184);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-edita:hover {
+  background: rgba(15, 159, 184, 0.781);
+}
+
+.btn-logout {
+  position: absolute;
+  bottom: 8%;
+  left: 90%;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(184, 16, 16);
+  color: #fff;
+
+  transition: 0.3s;
+}
+
+.btn-logout:hover {
+  background: rgba(184, 16, 16, 0.781);
+  bottom: 9%;
+  transform: scale(1.2);
 }
