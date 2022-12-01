@@ -37,6 +37,22 @@
   transition: 0.3s;
 }
 
+.admin-container .btn-atualizar {
+  width: 450px;
+  background: rgb(15, 158, 184);
+  margin-bottom: 30px;
+  color: #fff;
+  height: 30px;
+  border-radius: 6px;
+  border: 0;
+
+  transition: 0.3s;
+}
+
+.admin-container .btn-atualizar:hover {
+  background: rgba(15, 159, 184, 0.781);
+}
+
 .admin-container .btn-register:hover {
   background: rgb(33, 102, 231);
 }

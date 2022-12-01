@@ -10,7 +10,7 @@
 .home-container .login {
   background: rgb(27, 40, 56);
   padding: 15px;
-  width: 320px;
+  width: 400px;
   border-radius: 8px;
   text-align: center;
   box-shadow: 1px 2px 8px black;
@@ -34,7 +34,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 320px;
+  max-width: 400px;
 }
 
 .form input {
@@ -43,6 +43,7 @@
   box-shadow: 0 0 0 0;
   outline: 0;
   height: 30px;
+  width: 290px;
   border-radius: 6px;
   padding-left: 12px;
 }
@@ -52,7 +53,7 @@
   margin-bottom: 10px;
   color: #fff;
   height: 30px;
-  width: 190px;
+  width: 290px;
   border-radius: 6px;
   border: 0;
 
